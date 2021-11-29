@@ -299,26 +299,26 @@
 						<h4 class="mb-3">Get In Touch</h4>
 						<label for="username" class="form-label">Name</label>
 						<div class="wrong"></div>
-						<input type="text" class="form-control" id="username" oninput="checkName()">
+						<input type="text" autocomplete="off" class="form-control" id="username" oninput="checkName()">
 					  </div>
 					  <div class="mb-3">
 						<label for="phonenum" class="form-label">Phone Number</label>
 						<div class="wrong"></div>
 
-						<input type="text" class="form-control" id="phonenum" oninput="checkNumber()">
+						<input type="text" autocomplete="off" class="form-control" id="phonenum" oninput="checkNumber()">
 					  </div>
 					<div class="mb-4">
 					 <label for="emailadd" class="form-label">Email address</label>
 					 <div class="wrong"></div>
 
-					  <input type="email" class="form-control" id="emailadd" oninput="checkEmail()" aria-describedby="emailHelp">
+					  <input type="email" autocomplete="off" class="form-control" id="emailadd" oninput="checkEmail()" aria-describedby="emailHelp">
 					  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 					</div>
 					<div class="mb-3">
 						<label for="exampleFormControlTextarea1" class="form-label">Message</label>
 						<div class="wrong"></div>
 
-						<textarea class="form-control" id="msg" rows="3"></textarea>
+						<textarea class="form-control" autocomplete="off" id="msg" rows="3"></textarea>
 					</div>
 					<div>
 						<input type="submit">
