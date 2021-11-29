@@ -16,7 +16,7 @@ $("#submit-form").submit((e)=>{
     checkEmail()
 
 
-    if(achu == 1){
+    if(achu == 3){
         $.ajax({
             url:"https://script.google.com/macros/s/AKfycbxGb9DPr8wYhYlXC7NzSwQSO1ftGEmZ1J8zetmqtAikJbDvU-g/exec?",
             data:$("#submit-form").serialize(),
