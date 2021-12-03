@@ -15,7 +15,7 @@ $("#submit-form").submit((e)=>{
     checkName()
     checkNumber()
     checkEmail()
-    checkmessage()
+    checkMsg()
 
 
     if(achu == 4){
